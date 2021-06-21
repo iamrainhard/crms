@@ -5,5 +5,9 @@
  */
 
 require('./bootstrap');
-require('./vue-routes');
+require('./vue-routes/admin-routes');
+require('./vue-routes/hq-routes');
+require('./vue-routes/pastor-routes');
+require('./vue-routes/elder-routes');
+require('./vue-routes/user-routes');
 
